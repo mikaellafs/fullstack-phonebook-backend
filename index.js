@@ -4,6 +4,7 @@ let morgan = require('morgan')
 const cors = require('cors')
 require('dotenv').config()
 
+
 app.use(express.static('build'))
 app.use(express.json())
 app.use(cors())
